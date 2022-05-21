@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    
+    <main>
+        <!--LISTA DE OPCIONES utilizando SELECT (pocas opciones)-->
+        <!-- <select name="cursos" id="">
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standards">Web Standards</option>
+        </select> -->
+
+        <!--BUENA PRACTICA PARA LISTA DE OPCIONES (muchas) usando DATALIST
+        con input con atributo "list"--><!--Ideal para moviles-->
+        <span>¿Qué curso te gustaría tomar?</span>
+        
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="Javascript"></option>
+            <option value="HTML"></option>
+            <option value="CSS3"></option>
+            <option value="Web Standards"></option>
+        </datalist>
+    </main> 
+    
+    <!--el valor del atributo value como en todos, es el valor que el JS
+    llamará para ingresarlo a la basededatos-->
+    
+    
+
+
+</body>
+</html>
